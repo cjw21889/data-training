@@ -6,7 +6,7 @@ import requests
 
 def today_weather(city):
     """
-    Takes  and returns the
+    Takes a city name and returns the weather ID for that city
     """
     url = f"https://www.metaweather.com/api/location/search/?query={city}"
     response = requests.get(url)
