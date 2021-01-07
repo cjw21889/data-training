@@ -14,5 +14,5 @@ def today_weather(city):
         print('City not found')
 
     city = response.json()
-    return city['woeid']
+    city['woeid']
 
