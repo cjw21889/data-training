@@ -16,5 +16,5 @@ def range_sum(min, max):
     return new_total
 
 
-
+print(range_sum(1,10))
 
