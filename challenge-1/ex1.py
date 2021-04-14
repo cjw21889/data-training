@@ -3,7 +3,7 @@
 
 def range_sum(min, max):
     """
-    Takes min max params and returns their incusive sum
+    Takes a min and max param and returns their incusive sum
     """
 
     total = 0
@@ -17,4 +17,6 @@ def range_sum(min, max):
 
 
 print(range_sum(1,10))
+
+
 
