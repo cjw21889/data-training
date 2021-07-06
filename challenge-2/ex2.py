@@ -16,4 +16,3 @@ def today_weather(city):
     city = response.json()
     city['woeid']
 
-print(today_weather("london"))
